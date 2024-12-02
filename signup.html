@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <main class="d-flex justify-content-center align-items-center min-vh-100 bg-light">
+      <section class="bg-white p-4 rounded shadow-sm w-50">
+        <h1 class="text-center mb-4">Smart Login System</h1>
+        <div>
+          <input type="text" id="signupName" class="form-control mb-3" placeholder="Enter your name" required />
+          <input type="email" id="signupEmail" class="form-control mb-3" placeholder="Enter your email" required />
+          <input type="password" id="signupPassword" class="form-control mb-3" placeholder="Enter your password" required />
+          <button id="signupBtn" class="btn btn-primary w-100 mb-3">Sign up</button>
+          <div class="text-center">
+            <p class="mb-1">You have an account ?</p>
+            <a href="#" id="logIn" class="text-decoration-none text-primary">Log in</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="./js/bootstrap.bundle.js"></script>
+    <script src="./js/sweetalert.min.js"></script>
+    <script src="./js/signup.js"></script>
+  </body>
+</html>
